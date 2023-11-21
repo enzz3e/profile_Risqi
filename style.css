@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+nav {
+    background-color: #D9D9D9;
+}
+
+nav .navbar {
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navbar .kiri {
+    display: flex;
+    align-items: center;
+}
+
+.search-container {
+    text-align: center;
+    margin-left: 22px;
+    /* margin-top: 50px; */
+}
+.search-container button{
+    font-weight: 700;
+}
+
+/* Style for input box */
+input[type="text"] {
+    padding: 14px;
+    width: 710px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+/* Style for search button */
+button {
+    padding: 14px 40px;
+    background-color: #909090;
+    /* color: white; */
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for button hover effect */
+button:hover {
+    background-color: #797979;
+}
+
+.navbar .kanan ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.navbar .kanan ul a {
+    padding: 14px 24px;
+    background-color: #909090;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+.container h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 65px;
+}
+
+.container h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container .h3-about{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.container .p-about{
+    font-weight: 700;
+    padding: 30px 140px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.container .square {
+    margin: 0px 40px;
+    background-color: #5B5959;
+    border-radius: 20px;
+    padding-bottom: 60px;
+}
+
+.container .square .isi {
+    padding: 0px 50px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.square .content {
+    background-color: #46DEFF;
+    border: 3px solid #000;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+.square .c-2 {
+    background-color: #FF8080;
+}
+
+.square .c-3 {
+    background-color: #FFDF6F;
+}
+
+.square .c-4 {
+    background-color: #FF62EF;
+}
+
+.square .c-5 {
+    background-color: #6B9EFF;
+}
+
+.square .c-6 {
+    background-color: #48FF86;
+}
+
+.square .content-in {
+    background-color: #E7E7E7;
+    border-radius: 20px;
+}
+
+.square .content-in h3 {
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+.square .content-in p {
+    color: #494747;
+    text-align: center;
+    padding: 25px 37px;
+    font-weight: 700;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #D9D9D9;
+}
